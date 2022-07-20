@@ -2,6 +2,9 @@
 body{
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,500&family=Mukta:wght@400;600&family=Poppins:wght@500;700&family=Tiro+Telugu&display=swap');
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 /* hero section is here */
@@ -121,5 +124,39 @@ main{
     width: 70%;
     display: grid;
     grid-template-columns: repeat(3,2fr);
-    margin-left: 380px;
+    margin-left: 360px;
+}
+
+/* here is footer style */
+
+.Global-footer{
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+    margin-top: 100px;
+}
+.Global-footer hr{
+    width: 75%;
+    margin-top: 50px;
+    border: 1px solid #ffffff;
+}
+.Global-footer .text{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 50px 0;
+}
+.Global-footer .list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Global-footer .list ul li {
+    list-style: none;
+}
+.list ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px
 }
