@@ -45,5 +45,7 @@
       
         
     }
-    
+    .ant-match-container{
+        flex-direction: column;
+    }
 }
