@@ -1,0 +1,49 @@
+@media only screen and (max-width:777px){
+    .hero-section{
+        width: 70%;
+        height: auto;
+    }
+  .main-area img{
+   width: 350px;
+   
+  }
+  .text-items{
+    width: 277px;
+  }
+  .main-area{
+    flex-direction: column-reverse;
+    flex-basis: 100%;
+  }
+  .text-items .title-text{
+    flex-basis: 100%;
+    font-size: 30px;
+    
+}
+.button-area{
+    background-color: transparent;
+}
+.button-area button{
+    border: none;
+    margin:30px 50px;
+}
+.container{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .another-container{
+        width:100%;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px
+    }
+    .list ul{
+        flex-direction:column;
+        flex-basis: 100%;
+
+    }
+    .list ul li{
+       margin-top: 10px;
+      
+        
+    }
+    
+}
