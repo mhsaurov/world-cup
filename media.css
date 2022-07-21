@@ -1,4 +1,4 @@
-@media only screen and (max-width:777px){
+@media only screen and (max-width:767px){
     .hero-section{
         width: 70%;
         height: auto;
@@ -28,7 +28,6 @@
 }
 .container{
         grid-template-columns: repeat(1,1fr);
-        
     }
     .another-container{
         width:100%;
@@ -48,4 +47,42 @@
     .ant-match-container{
         flex-direction: column;
     }
+}
+
+/* here is tablet media screen */
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+   .hero-section{
+    width: 734px;
+    
+   }
+   .main-area img{
+    width: 455px;
+    margin-top: 150px;
+    
+   }
+
+   .text-items .title-text{
+    font-size: 40px;
+   }
+
+   .container{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .another-container{
+    width:100%;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 0px
+}
+.button-area{
+    background-color: transparent;
+}
+.button-area button{
+    width: 252px;
+    height: 64px;
+    border: none;
+    margin:20px 10px ;
+    
+}
+
 }
